@@ -109,6 +109,9 @@
         font-size: 1.7em;
 
     }
+    #restaurant-container {
+        width: 50%;
+    }
     #name {
         font-size: 1.7em;
     }
@@ -136,13 +139,6 @@
         height: 200px;
         float: left;
     }
-    #restaurants-list li p,
-    a {
-        font-size: 1.3em;
-    }
-    #restaurants-list li h3 {
-        font-size: 2em;
-    }
     #restaurant-hours td {
         color: #666;
         font-size: 1.1em;
@@ -155,6 +151,9 @@
     #restaurant-cuisine {
         font-size: 1.7em;
 
+    }
+    #restaurant-container {
+        width: 50%;
     }
     #name {
         font-size: 1.7em;
@@ -186,13 +185,7 @@
     .filter-options select {
         width: 150px;
     }
-    #restaurants-list li p,
-    a {
-        font-size: 1.3em;
-    }
-    #restaurants-list li h3 {
-        font-size: 2em;
-    }
+
     #restaurant-hours td {
         color: #666;
         font-size: 1.1em;
@@ -204,7 +197,6 @@
 
     #restaurant-cuisine {
         font-size: 1.7em;
-
     }
     #name {
         font-size: 1.7em;
@@ -216,7 +208,6 @@
     #comments {
         font-size: 1.3em;
     }
-
 }
 
 @media screen and (max-width: 439px) {
