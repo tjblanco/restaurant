@@ -15,8 +15,8 @@ var filesToCache = [
     'img/9.jpg',
     'img/10.jpg',
     'js/main.js',
-    'dbhelper.js',
-    'restaurant_info.js',
+    'js/dbhelper.js',
+    'js/restaurant_info.js',
     'data/restaurants.json',
 ];
 
