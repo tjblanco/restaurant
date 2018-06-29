@@ -60,7 +60,12 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 .clear {
     clear: both;
 }
-
+select:focus {
+    outline-color: orange;
+    outline-offset: -2px;
+    outline-style: auto;
+    outline-width: 5px;
+}
 /* ====================== Navigation ====================== */
 nav {
     width: 100%;

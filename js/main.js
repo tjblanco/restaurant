@@ -83,10 +83,11 @@ initMap = () => {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
       'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    id: 'mapbox.streets'
+    id: 'mapbox.streets',
   }).addTo(newMap);
 
   updateRestaurants();
+  document.querySelector('#map').tabIndex = -1;
 }
 /* window.initMap = () => {
   let loc = {
@@ -161,6 +162,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = restaurant.name + ' restaurant';
   li.append(image);
 
   const name = document.createElement('h3');
